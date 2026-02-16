@@ -1,0 +1,39 @@
+{
+  "name": "qase-playwright",
+  "version": "2.0.16",
+  "description": "A demo repository with Examples, for troubleshooting problems and for feature requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cskmnrpt/qase-playwright.git"
+  },
+  "keywords": [
+    "qase-playwright",
+    "qaseio",
+    "qase-tms",
+    "qase-javascript"
+  ],
+  "author": "Qase Support",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/cskmnrpt/qase-playwright/issues"
+  },
+  "homepage": "https://github.com/cskmnrpt/qase-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "dotenv": "^16.5.0",
+    "playwright-qase-reporter": "^2.1.6",
+    "prettier": "^3.4.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "mailslurp-client": "^16.0.0",
+    "newman-reporter-qase": "^2.1.5"
+  }
+}
