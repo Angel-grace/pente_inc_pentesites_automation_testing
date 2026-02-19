@@ -24,7 +24,7 @@
   "homepage": "https://github.com/cskmnrpt/qase-playwright#readme",
   "devDependencies": {
     "@playwright/test": "^1.55.1",
-    "dotenv": "^16.5.0",
+    "dotenv": "^16.6.1",
     "playwright-qase-reporter": "^2.1.6",
     "prettier": "^3.4.2"
   },

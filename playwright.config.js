@@ -5,8 +5,9 @@ dotenv.config();
 
 export default defineConfig({
   use: {
+    slowMo: 500,
     screenshot: "only-on-failure", // 'on', 'off', 'only-on-failure'
-    video: "retain-on-failure", // 'on', 'off', 'on-first-retry', 'retain-on-failure'
+    video: "on", // 'on', 'off', 'on-first-retry', 'retain-on-failure'
     viewport: { width: 1280, height: 720 },
   },
   outputDir: "test-results/",
